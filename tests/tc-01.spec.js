@@ -7,7 +7,7 @@ test("Login with valid credential", async ({ page }) => {
   await page.locator('[data-test="username"]').fill("standard_user"); //input username
 
   await page.locator('[data-test="password"]').click();
-  await page.locator('[data-test="password"]').fill("secret_sauce"); //input password
+  await page.locator('[data-test="password"]').fill("secret_sauce1"); //input password
 
   await page.locator('[data-test="login-button"]').click(); //click login
 
